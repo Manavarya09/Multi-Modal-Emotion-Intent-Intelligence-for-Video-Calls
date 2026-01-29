@@ -1,34 +1,34 @@
-# 🚀 EMOTIA Advanced - Multi-Modal Emotion & Intent Intelligence for Video Calls
+# EMOTIA Advanced - Multi-Modal Emotion & Intent Intelligence for Video Calls
 
-[![CI/CD](https://github.com/your-repo/emotia/actions/workflows/cicd.yml/badge.svg)](https://github.com/your-repo/emotia/actions/workflows/cicd.yml)
+[![CI/CD](https://github.com/Manavarya09/Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls/actions/workflows/cicd.yml/badge.svg)](https://github.com/Manavarya09/Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls/actions/workflows/cicd.yml)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://docker.com)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
 [![React](https://img.shields.io/badge/react-18+-61dafb.svg)](https://reactjs.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **Advanced Research-Grade AI System** for real-time emotion and intent analysis in video calls. Features CLIP-based fusion, distributed training, WebRTC streaming, and production deployment.
+Advanced research-grade AI system for real-time emotion and intent analysis in video calls. Features CLIP-based fusion, distributed training, WebRTC streaming, and production deployment.
 
-## ✨ Advanced Features
+## Advanced Features
 
-### 🤖 Cutting-Edge AI Architecture
+### Cutting-Edge AI Architecture
 - **CLIP-Based Multi-Modal Fusion**: Contrastive learning for better cross-modal understanding
 - **Advanced Attention Mechanisms**: Multi-head temporal transformers with uncertainty estimation
 - **Distributed Training**: PyTorch DDP with mixed precision (AMP) and OneCycleLR
 - **Model Quantization**: INT8/FP16 optimization for edge deployment
 
-### ⚡ Real-Time Performance
+### Real-Time Performance
 - **WebRTC + WebSocket Streaming**: Ultra-low latency real-time analysis
 - **Advanced PWA**: Offline-capable with push notifications and background sync
 - **3D Visualizations**: Interactive emotion space and intent radar charts
 - **Edge Optimization**: TensorRT and mobile deployment support
 
-### 🏗️ Enterprise-Grade Infrastructure
+### Enterprise-Grade Infrastructure
 - **Kubernetes Deployment**: Auto-scaling, monitoring, and high availability
 - **CI/CD Pipeline**: GitHub Actions with comprehensive testing and security scanning
 - **Monitoring Stack**: Prometheus, Grafana, and custom metrics
 - **Model Versioning**: MLflow integration with A/B testing
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -52,7 +52,7 @@
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -64,8 +64,8 @@
 
 1. **Clone and setup:**
 ```bash
-git clone https://github.com/your-repo/emotia.git
-cd emotia
+git clone https://github.com/Manavarya09/Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls.git
+cd Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls
 ```
 
 2. **Backend setup:**
@@ -105,7 +105,7 @@ kubectl apply -f infrastructure/kubernetes/
 kubectl rollout status deployment/emotia-backend
 ```
 
-## 📊 Advanced AI Models
+## Advanced AI Models
 
 ### CLIP-Based Fusion Architecture
 ```python
@@ -146,7 +146,7 @@ async def websocket_analysis(websocket: WebSocket, session_id: str):
         await websocket.send_json(result)
 ```
 
-## 🎨 Advanced Frontend Features
+## Advanced Frontend Features
 
 ### 3D Emotion Visualization
 - **Emotion Space**: Valence-Arousal-Dominance 3D scatter plot
@@ -169,7 +169,7 @@ const stream = await navigator.mediaDevices.getUserMedia({
 const ws = new WebSocket('ws://localhost:8080/ws/analyze/session_123');
 ```
 
-## 📈 Performance & Monitoring
+## Performance & Monitoring
 
 ### Real-Time Metrics
 - **Latency**: <50ms end-to-end analysis
@@ -195,7 +195,7 @@ python scripts/quantization.py \
   --benchmark
 ```
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Run Test Suite
 ```bash
@@ -215,7 +215,7 @@ python scripts/benchmark.py --model_path optimized_models/quantized_model.pth
 - **Model Validation**: Regression testing and accuracy checks
 - **Deployment**: Automatic staging and production deployment
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Configuration
 ```json
@@ -247,7 +247,7 @@ python scripts/benchmark.py --model_path optimized_models/quantized_model.pth
 }
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Real-Time Analysis
 ```http
@@ -268,7 +268,7 @@ Message Format:
 - `GET /models` - Available model versions
 - `POST /feedback` - User feedback for model improvement
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -282,11 +282,11 @@ Message Format:
 - **Documentation**: Update README and docstrings
 - **Security**: Run security scans before PR
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI CLIP** for multi-modal understanding
 - **PyTorch** for deep learning framework
@@ -294,16 +294,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **FastAPI** for high-performance API
 - **Kubernetes** for container orchestration
 
-## 📞 Support
+## Support
 
 - **Documentation**: [docs.emotia.com](https://docs.emotia.com)
-- **Issues**: [GitHub Issues](https://github.com/your-repo/emotia/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/emotia/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Manavarya09/Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Manavarya09/Multi-Modal-Emotion-Intent-Intelligence-for-Video-Calls/discussions)
 - **Email**: support@emotia.com
 
 ---
 
-**Built with ❤️ for ethical AI in human communication**
+Built for ethical AI in human communication
 - Non-diagnostic AI tool
 - Bias evaluation available
 - No biometric data storage by default
